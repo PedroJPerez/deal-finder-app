@@ -12,17 +12,21 @@ const Navigation = () => {
                 </Link>
                 <div className='nav-links-container'>
                     <div className='nav-links'>
+                        <Link className='nav-link' to='/login'>
+                            LOGIN
+                        </Link>
+                    </div>
+                    <div className='nav-links'>
                         <Link className='nav-link' to='/shop'>
                             SHOP
                         </Link>
                     </div>
                     <div className='nav-links'>
-                        <Link className='nav-link' to='/login'>
-                            LOGIN
+                        <Link className='nav-link' to='/premium'>
+                            PREMIUM
                         </Link>
                     </div>
                 </div>
-
             </div>
             <Outlet></Outlet>
         </Fragment>)

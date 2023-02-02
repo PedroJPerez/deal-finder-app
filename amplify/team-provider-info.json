@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dealfinderapp-dev-220407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::683146921152:role/amplify-dealfinderapp-dev-220407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::683146921152:role/amplify-dealfinderapp-dev-220407-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dealfinderapp-dev-220407-deployment",
+      "UnauthRoleName": "amplify-dealfinderapp-dev-220407-unauthRole",
+      "StackName": "amplify-dealfinderapp-dev-220407",
+      "StackId": "arn:aws:cloudformation:us-east-1:683146921152:stack/amplify-dealfinderapp-dev-220407/876e6320-a05b-11ed-9742-129cdf2be7a5",
+      "AmplifyAppId": "d2huepob8xa3om"
+    },
+    "categories": {
+      "auth": {
+        "dealfinderappd5910d01": {}
+      }
+    }
+  }
+}
