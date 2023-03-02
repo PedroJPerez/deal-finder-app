@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Login from './routes/login/login.component';
 import Shop from './routes/shop/shop.component';
 import Premium from './routes/premium/premium.component';
+import Register from './routes/register/register.component';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Route path='/' element= {<Navigation />}>
         <Route index element={<Home />} />
         <Route path='login' element={<Login />} />
+        <Route path='register' element={<Register />} />
         <Route path='shop' element={<Shop />} />
         <Route path='premium' element={<Premium />} />
       </Route>
